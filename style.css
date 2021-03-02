@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap');
+
+body {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 13px;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+
+.card {
+    width: 100%;
+    height: 100vh;
+    padding: 0;
+    background-image: url(./images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.obj {
+    width: 400px;
+    height: 55%;
+    border-radius: 20px;
+    border: none;
+    background: white;
+    margin: auto;
+    box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.218);
+    overflow: hidden;
+}
+
+.top {
+    height: 40%;
+    width: 100%;
+    background: url(./images/bg-pattern-card.svg);
+}
+
+.bottom {
+    height: 60%;
+    width: 100%;
+    background: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.bottom img {
+    border-radius: 50%;
+    border: 10px solid white;
+    margin-top: -50px;
+    object-fit: cover;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+span {
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 0;
+    color: hsl(229, 23%, 23%);
+}
+
+h3 {
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+    color: hsl(227, 10%, 46%);
+}
+
+@media (max-width:700px) {
+
+    .obj {
+        width: 90%;
+        height: 80%;
+        border-radius: 20px;
+        border: none;
+        background: white;
+        margin: auto;
+        box-shadow: 2px 2px 13px rgba(0, 0, 0, 0.218);
+        overflow: hidden;
+    }
+
+}
